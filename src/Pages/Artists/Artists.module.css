@@ -1,0 +1,45 @@
+.page-container {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    overflow: hidden;
+}
+
+.search-box-container{
+    width: 50%;
+   align-self:center;
+}
+
+.Artists-container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+@media(max-width:1090px){
+    .Artists-container{
+        grid-template-columns: repeat(3,auto);
+    }
+}
+
+@media(max-width:810px){
+    .Artists-container{
+        grid-template-columns: repeat(2,auto);
+    }
+    .search-box-container{
+        width: 70%;
+    }
+}
+
+@media(max-width:530px){
+    .Artists-container{
+        grid-template-columns: repeat(1,auto);
+    }
+    .search-box-container{
+        width: 70%;
+    }
+}

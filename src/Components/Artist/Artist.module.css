@@ -1,0 +1,43 @@
+.artist-card {
+    width: 220px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    height: 280px;
+    cursor: pointer;
+}
+
+.artist-details{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 55%;
+    margin: 0 auto;
+}
+.artist-img {
+    border-bottom: 1px solid gray;
+    height: 50%;
+    overflow: hidden;
+}
+
+.artist-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.sub-details {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    height: 65%;
+
+}
+
+.artist-followers{
+    font-size: 12px;
+    color: gray;     
+}
+.artist-rating {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 25px;
+}

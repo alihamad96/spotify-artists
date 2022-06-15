@@ -1,0 +1,11 @@
+.app-header {
+    background-color: rgb(199, 199, 199);
+    font-size: large;
+    border: solid 2px gray;
+    padding: 1rem 2rem;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    z-index: 1000;
+    margin-top: 0;
+}
